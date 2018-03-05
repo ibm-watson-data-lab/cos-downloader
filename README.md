@@ -87,7 +87,7 @@ curl -v 'https://openwhisk.ng.bluemix.net/api/v1/web/ORG_SPACE/default/download?
 
 If you visit the returned URL in a browser it should download your file. Note this link is time-limited so will only work for sixty seconds from creation.
 
-### Using in a web page
+## Using in a web page
 
 If your files are images, then you can construct `<img>` tags that contain links to your serverless action:
 
@@ -95,3 +95,6 @@ If your files are images, then you can construct `<img>` tags that contain links
 <img src="https://openwhisk.ng.bluemix.net/api/v1/web/ORG_SPACE/default/download?id=landscape.png" alt="photo">
 ```
 
+## Links
+
+If you need to upload files from browser to Object Storage then [this repostory](https://github.com/ibm-watson-data-lab/cos-uploader) can help.
